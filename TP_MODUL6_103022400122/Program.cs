@@ -16,8 +16,11 @@ namespace TP_MODUL6_103022400122
             laguSaya.PrintTrackDetails();
 
             Console.WriteLine(" ");
-            Console.WriteLine("Memutar lagu 45 kali ");
-            laguSaya.IncreasePlayCount(45);
+            Console.WriteLine("Menambahkan 10.000.000 views berulang kali hingga melebihi batas Integer...");
+            for (int i = 1; i <= 220; i++)
+            {
+                laguSaya.IncreasePlayCount(10000000);
+            }
             Console.WriteLine(" ");
             
             Console.WriteLine("State Akhir");
